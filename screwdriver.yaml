@@ -35,6 +35,7 @@ jobs:
       # the same job (as shown below).
       - export: export GREETING="Hello, world!"
       - hello: echo $GREETING
+      - again: echo again $GREETING
   # We define another Job called "second_job". In this Job, we intend on running
   # a different set of commands.
   second_job:
